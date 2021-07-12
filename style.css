@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(251, 253, 253);
+    text-decoration: none;
+}
+.logo{
+    width: 80px;
+}
+hr{
+  width: 80%;
+  margin:auto;
+}
+/* blue bar */
+.header2 {
+  height:400px;
+  margin-top: 0px;
+  width:100%;
+  background: linear-gradient(to bottom, transparent, rgba(82, 80, 80, 0.74)),
+      url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:0;
+  position: relative;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bold;
+}
+h2{
+  font-size: 2rem;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.P{
+    
+    text-align: center;
+}
+.navi{
+    padding: 5px 17px;
+    background-color: rgb(6, 182, 252);
+    margin: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.navi:hover{
+    background:#4127b4;
+    color: white;
+    font: bold;
+    box-shadow: 0px 5px 20px rgba(65, 150, 190, 0.623);
+  transform: translateY(-7px);
+}
+.work{
+  box-shadow: 0px 5px 20px rgba(188, 221, 236, 0.623);
+  cursor: pointer;
+}
+.work:hover{
+  box-shadow: 0px 5px 20px rgba(65, 150, 190, 0.623);
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #960af3;
+  box-shadow: 0px 15px 20px rgba(185, 9, 255, 0.37);
+  color: #fff;
+  transform: translateY(-7px);
+}
+ footer{
+   background: #000;
+   height: 80px;
+ }
+ /**************************** contact us page css ***********************/
+ p{
+   font: bold;
+   font-size: 1.1em;
+ }
